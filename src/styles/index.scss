@@ -1,0 +1,48 @@
+@import './reset.scss';
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+a,
+a:focus,
+a:hover {
+    cursor: pointer;
+    color: inherit;
+    text-decoration: none;
+}
+
+html,
+body,
+#app {
+    height: 100%;
+}
+
+.elHover {
+    height: 31px;
+}
+
+.elHover:hover {
+    background-color: #122043!important;
+}
+
+// .elHover:before {
+//   content: "";
+//   display: block;
+//   width: 3px;
+//   height: 31px;
+//   background-color:#409EFF;
+// }
